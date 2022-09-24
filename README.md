@@ -12,6 +12,8 @@ PGAdmin – PostgreSQL Management Tool for the Analysis [SQL Queries](https://gi
 
 Tableau for Data Visulaization [My Dashboard](https://public.tableau.com/app/profile/harleen8610/viz/ImpactofCovidGlobally2020-2022/Dashboard1)
 
+I have worked on seperate [SQL Queries](https://github.com/korharleen/Portfolio-Projects/blob/main/tableaufiles.sql) for data to create dashboard.
+
 ## Personal Note
 So this was my very first project. Yes very intimidating initially I struggled with very basic things like ,took 5-6 hours just to import my data files to sql,
 understanding pgadminn interface , then offcourse the main part was analysis ,I have felt like whatever I have learnt so far has come into practice I experienced 
