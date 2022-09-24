@@ -1,10 +1,10 @@
-/*
-Queries used for Tableau Project
-*/
+
+------------------------------ Queries used for Tableau Project------------------------------------------------------------------------------------------
 
 
 
--- 1. Global Numbers
+
+--------------------------------------------------------------- 1. Global Numbers---------------------------------------------------------------------------
 
 Select SUM(new_cases) as total_cases, 
        SUM(new_deaths::int) as total_deaths, 
@@ -18,11 +18,11 @@ order by 1,2
 
 
 
--- 2. 
+-------------------------------------------------------------- 2. -----------------------------------------------------------------------------------------
 
--- We take these out as they are not inluded in the above queries and want to stay consistent
--- European Union is part of Europe
--- I have some additional information regarding incomes so removing for the time being
+------------------------------------ We take these out as they are not inluded in the above queries and want to stay consistent
+----------------------------------------- European Union is part of Europe
+----------------------------------------- I have some additional information regarding incomes so removing for the time being
 
 Select location, 
       SUM(cast(new_deaths as int)) as TotalDeathCount
@@ -34,7 +34,7 @@ Group by location
 order by TotalDeathCount desc
 
 
--- 3. InfectedPercentagge against population grouping as per location and population
+-------------------------------------------------- 3. InfectedPercentagge against population grouping as per location and population-----------------------
 
 
 Select Location,population,
@@ -48,7 +48,7 @@ order by PercentPopulationInfected desc
 
 
 
--- 4. InfectedPercentagge against population grouping as per location ,population,dt
+------------------------------------------------ 4. InfectedPercentagge against population grouping as per location ,population,dt-------------------------
 
 
 Select Location, Population,dt,
