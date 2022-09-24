@@ -3,7 +3,7 @@ From Coviddeaths
 
 
 
--- Selecting some data to work upon
+------------------------------------------------Selecting some data to work upon----------------------------------------------------------------------
 
 Select Location, dt, total_cases, new_cases, total_deaths, population
 From Coviddeaths
