@@ -8,7 +8,7 @@ The dataset has been divided into different tables named Covid-Deaths and Covid-
 
 ## Tools Used
 
-PGAdmin – PostgreSQL Management Tool for the Analysis [SQL Queries](https://github.com/korharleen/Portfolio-Projects/blob/main/portfolioproject.sql)
+PGAdmin – PostgreSQL Management Tool for the Analysis [SQL Queries](https://github.com/korharleen/Covid-19-Analysis-Project/blob/main/DataExploration.sql)
 
 Tableau for Data Visulaization [My Dashboard](https://public.tableau.com/app/profile/harleen8610/viz/ImpactofCovidGlobally2020-2022/Dashboard1)
 
